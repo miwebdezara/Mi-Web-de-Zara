@@ -1,0 +1,104 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; 
+    z-index: 1000; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    max-width: 60%;
+    height: auto;
+    margin: 10px;
+}
+.Contenido {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Producto {
+    width: 48%; 
+    margin-bottom: 20px; 
+}
+
+.izquierda {
+    order: 1; 
+}
+
+.derecha {
+    order: 2; 
+}
+.Producto h2,
+.Producto h3,
+.Producto h4,
+.Producto h5,
+.Producto h6,
+.Producto h7 {
+    color: #333; 
+    font-size: 12px; 
+    margin-bottom: 10px 10px;
+
+}
+
+
+.menu {
+    background-color: black; 
+    overflow: hidden;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.menu li {
+    flex: 1;
+    text-align: center;
+    background-color:black;
+}
+.menu a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover {
+    background-color: #555;
+}
+footer {
+    background-color: white; 
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    color: black; 
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black; 
+}
+
+footer a:hover {
+    color:#555;; 
+}
+
+
+iframe {
+    width: 100%;
+    height: 150px; 
+    border: 0; 
+}
