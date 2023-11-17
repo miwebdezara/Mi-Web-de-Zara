@@ -33,8 +33,13 @@ header {
 .Producto h3,
 .Producto h4,
 .Producto h5,
-.Producto h6,
-.Producto h7 {
+.Producto h6 {
+    color: #333; 
+    font-size: 12px; 
+    margin-bottom: 10px 10px;
+
+}
+.Producto .producto-h7 {
     color: #333; 
     font-size: 12px; 
     margin-bottom: 10px 10px;
